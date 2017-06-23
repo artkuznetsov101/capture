@@ -1,2 +1,10 @@
 language: java
 script: mvn package
+
+deploy:
+  provider: releases
+  api_key: "52b44c29115bc614e729bd8c4405b9beff18b610"
+  file: "capture.jar"
+  skip_cleanup: true
+  on:
+    tags: true
