@@ -8,4 +8,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: artkuznetsov101/capture
-	tags: true
+    tags: true
