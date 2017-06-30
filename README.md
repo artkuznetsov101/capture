@@ -6,7 +6,7 @@ capture.jar is a Windows only console utility which allows you to take screensho
 
 It uses WinAPI over JNA and support regular expression syntax in window caption name option.
 
-You can build this utility by yourself or download latest release from 'Release' section.
+You can build this utility by yourself or download latest release from 'releases' section.
 
 ## Compiling
 
