@@ -4,7 +4,7 @@
 ## Quick start
 capture.jar is a Windows only console utility which allows you to take screenshots of entire screen, or a particular window, and save it to a file. Utility provides functions to capture separate window even if it is fully hidden (overlapped) by other windows. 
 
-It uses WinAPI over JNA and support regular expression syntax in window caption name parameter.
+It uses WinAPI over JNA and support regular expression syntax in window caption name option.
 
 You can build this utility by yourself or download latest release from 'Release' section.
 
