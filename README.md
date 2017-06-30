@@ -28,8 +28,8 @@ Examples:
 
 Captures all windows in current directory with captions started with "Skype":
      
-    java -jar capture.jar -c "Skype.*"                     
-     
-Capture desktop in current directory with jpg file extension
+    java -jar capture.jar -c "Skype.*"                       
+ 
+Capture desktop in current directory with jpg file extension:
 
     java -jar capture.jar -c "Program Manager" -e "jpg"    
