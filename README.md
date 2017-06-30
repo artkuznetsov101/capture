@@ -1,22 +1,21 @@
-# capture (hidden windows to a file) [![Build Status](https://travis-ci.org/artkuznetsov101/capture.svg?branch=master)](https://travis-ci.org/artkuznetsov101/capture)
+[![Build Status](https://travis-ci.org/artkuznetsov101/capture.svg?branch=master)](https://travis-ci.org/artkuznetsov101/capture)
 
-Quick start
-============
+# capture (hidden windows to a file)
+
+## Quick start
 capture.jar is a Windows only console utility which allows you to take screenshots of entire screen, or a particular window, and save it to a file. Utility provides functions to capture separate window even if it is fully hidden (overlapped) by other windows. 
 
 It uses WinAPI over JNA and support regular expression syntax in window caption name parameter.
 
 You can build this utility by yourself or download latest release from 'Release' section.
 
-Compiling
-============
+## Compiling
 
 If you want to build all by youself you will need to install a JDK and maven. Then run the following command: 
 
     mvn package
 
-Usage
-============
+## Usage
 
 All options:
 
@@ -28,5 +27,10 @@ All options:
 
 Examples:
 
-     java -jar capture.jar -c "Skype.*"                     Captures all windows in current directory with captions started with "Skype"
-     java -jar capture.jar -c "Program Manager" -e "jpg"    Capture desktop in current directory with jpg file extension
+Captures all windows in current directory with captions started with "Skype":
+     
+    java -jar capture.jar -c "Skype.*"                     
+     
+Capture desktop in current directory with jpg file extension
+
+    java -jar capture.jar -c "Program Manager" -e "jpg"    
