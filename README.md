@@ -2,7 +2,7 @@
 # capture (hidden windows to a file)
 
 ## Quick start
-capture.jar is a Windows only console utility which allows you to take screenshots of entire screen, or a particular window, and save it to a file. Utility provides functions to capture separate window even if it is fully hidden (overlapped) by other windows. 
+capture.jar is a Windows only java console app which allows you to take screenshots of entire desktop, or a particular window, and save it to a file. App provides functionality to capture separate window even if it is fully hidden (overlapped) by other windows. 
 
 It uses WinAPI over JNA and support regular expression syntax in window caption name option.
 
@@ -26,10 +26,10 @@ All options:
 
 Examples:
 
-Captures all windows in current directory with captions started with "Skype":
+Captures all windows with captions started with "Skype":
      
     java -jar capture.jar -c "Skype.*"                       
  
-Capture desktop in current directory with jpg file extension:
+Capture desktop with jpg file extension:
 
     java -jar capture.jar -c "Program Manager" -e "jpg"    
